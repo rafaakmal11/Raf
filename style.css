@@ -1,0 +1,99 @@
+body{
+    background-image:url(5177180.jpg) ;
+    position:relative;
+    background-size:cover;
+    background-position:center;
+}
+h1{
+    text-align:center;
+}
+.bergerak{
+    font-size:21px;
+    background-color:blueviolet;
+    border:solid black;
+    color: white;
+    font-weight:lighter;
+    
+
+}
+.jadwal-pelajaran{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    align-items:auto;
+    
+}
+.bagian{
+    background-color:aqua;
+    height:auto;
+    width:15%;
+    display:inline-block;
+    margin-left:30px;
+    padding-left:30px;
+    border:solid;
+}
+.piket{
+    background-color:aquamarine;
+    width:15%;
+    display:inline-block;
+    margin-left:30px;
+    padding-left:30px;
+    border:solid;
+}
+.hari{
+    text-align:center;
+}
+h3{
+    text-align:center;
+}
+
+.video-lebaran{
+    display:flex;
+    justify-content: space-around ;
+}
+
+.videoku{
+    width: 45%;
+}
+
+.foto-lebaran{
+    display:flex;
+    justify-content: space-around;
+}
+
+/* aturan untuk layar hp dengan lebar kurang dari atau sama dengan 480px */
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    /* tambahkan aturan CSS lain yang sesuai dengan tampilan pada layar HP */
+}
+
+/* aturan untuk layar tablet dengan lebar antara 481px dan 1024px */
+@media (min-width: 481px) and (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+    #siswa{
+        display: inline-block ;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;     
+    }
+.daftar div{
+    margin: 10px 5px;
+    
+    width: 250px;
+    display: inline-block
+}
+
+    /* tambahkan aturan CSS lain yang sesuai dengan tampilan pada layar tablet */
+}
+
+/* aturan untuk layar laptop dengan lebar lebih dari 1024px */
+@media (min-width: 1025px) {
+    body{
+        font-size: 18px;
+    }
+    /* tambahkan aturan CSS lain yang sesuai dengan tampilan pada layar laptop */
+}
